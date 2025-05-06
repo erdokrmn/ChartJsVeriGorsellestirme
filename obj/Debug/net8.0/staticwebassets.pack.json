@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\js\\chart.min.js",
+      "PackagePath": "staticwebassets\\js\\chart.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChartJsVeriGorsellestirme.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChartJsVeriGorsellestirme.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ChartJsVeriGorsellestirme.props",
+      "PackagePath": "build\\ChartJsVeriGorsellestirme.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ChartJsVeriGorsellestirme.props",
+      "PackagePath": "buildMultiTargeting\\ChartJsVeriGorsellestirme.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ChartJsVeriGorsellestirme.props",
+      "PackagePath": "buildTransitive\\ChartJsVeriGorsellestirme.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

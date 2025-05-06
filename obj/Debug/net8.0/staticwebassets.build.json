@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "ickZLfYWnsKDSQAZojuHj5YpZ99w51bTfQv4tluozIk=",
+  "Source": "ChartJsVeriGorsellestirme",
+  "BasePath": "_content/ChartJsVeriGorsellestirme",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChartJsVeriGorsellestirme\\wwwroot",
+      "Source": "ChartJsVeriGorsellestirme",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\",
+      "BasePath": "_content/ChartJsVeriGorsellestirme",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\css\\style.css",
+      "SourceId": "ChartJsVeriGorsellestirme",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\",
+      "BasePath": "_content/ChartJsVeriGorsellestirme",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eesag8mfg8",
+      "Integrity": "Rv4XH7ZmGAVz1mKQj68Vy926Yq6vMIvAjAFyCj1Xd7Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\js\\chart.min.js",
+      "SourceId": "ChartJsVeriGorsellestirme",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\",
+      "BasePath": "_content/ChartJsVeriGorsellestirme",
+      "RelativePath": "js/chart.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w9e4ptbk0c",
+      "Integrity": "vOFUCAlZxXS+C7axqST/MvCOvG/0YMFZFx9RxTgCyEQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chart.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rv4XH7ZmGAVz1mKQj68Vy926Yq6vMIvAjAFyCj1Xd7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 07:09:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rv4XH7ZmGAVz1mKQj68Vy926Yq6vMIvAjAFyCj1Xd7Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.eesag8mfg8.css",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rv4XH7ZmGAVz1mKQj68Vy926Yq6vMIvAjAFyCj1Xd7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 07:09:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eesag8mfg8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rv4XH7ZmGAVz1mKQj68Vy926Yq6vMIvAjAFyCj1Xd7Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.min.js",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\js\\chart.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vOFUCAlZxXS+C7axqST/MvCOvG/0YMFZFx9RxTgCyEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vOFUCAlZxXS+C7axqST/MvCOvG/0YMFZFx9RxTgCyEQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.min.w9e4ptbk0c.js",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\ChartJsVeriGorsellestirme\\ChartJsVeriGorsellestirme\\wwwroot\\js\\chart.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vOFUCAlZxXS+C7axqST/MvCOvG/0YMFZFx9RxTgCyEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w9e4ptbk0c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chart.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vOFUCAlZxXS+C7axqST/MvCOvG/0YMFZFx9RxTgCyEQ="
+        }
+      ]
+    }
+  ]
+}

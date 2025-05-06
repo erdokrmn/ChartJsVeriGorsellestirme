@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ChartJsVeriGorsellestirme/css/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Rv4XH7ZmGAVz1mKQj68Vy926Yq6vMIvAjAFyCj1Xd7Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"403"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Rv4XH7ZmGAVz1mKQj68Vy926Yq6vMIvAjAFyCj1Xd7Q=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 07:09:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ChartJsVeriGorsellestirme/css/style.eesag8mfg8.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eesag8mfg8"},{"Name":"integrity","Value":"sha256-Rv4XH7ZmGAVz1mKQj68Vy926Yq6vMIvAjAFyCj1Xd7Q="},{"Name":"label","Value":"_content/ChartJsVeriGorsellestirme/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"403"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Rv4XH7ZmGAVz1mKQj68Vy926Yq6vMIvAjAFyCj1Xd7Q=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 07:09:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ChartJsVeriGorsellestirme/js/chart.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chart.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vOFUCAlZxXS\u002BC7axqST/MvCOvG/0YMFZFx9RxTgCyEQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"206944"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vOFUCAlZxXS\u002BC7axqST/MvCOvG/0YMFZFx9RxTgCyEQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 06:40:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ChartJsVeriGorsellestirme/js/chart.min.w9e4ptbk0c.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chart.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w9e4ptbk0c"},{"Name":"integrity","Value":"sha256-vOFUCAlZxXS\u002BC7axqST/MvCOvG/0YMFZFx9RxTgCyEQ="},{"Name":"label","Value":"_content/ChartJsVeriGorsellestirme/js/chart.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"206944"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vOFUCAlZxXS\u002BC7axqST/MvCOvG/0YMFZFx9RxTgCyEQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 06:40:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

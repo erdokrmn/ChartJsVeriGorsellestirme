@@ -1,0 +1,215 @@
+﻿@{
+    ViewData["Title"] = "Milli Piyango Çekiliş Grafikleri";
+}
+
+<h1 style="text-align: center; margin-bottom: 40px;">Çekiliş Analizleri</h1>
+
+<div class="chart-grid">
+    <div class="chart-container">
+        <h3>En Çok Çıkan Sayılar</h3>
+        <canvas id="sayilarChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h3>Sayı Aralıklarına Göre Dağılım</h3>
+        <canvas id="aralikChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h3>Tek / Çift Sayı Dağılımı</h3>
+        <canvas id="tekCiftChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h3>Yıllık Çıkış Dağılımı</h3>
+        <canvas id="yillikChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <h3>En Sık Çıkan 2'li Sayı Kombinasyonları</h3>
+        <canvas id="kombinasyonChart"></canvas>
+    </div>
+</div>
+
+<!-- Chart.js yerel dosya -->
+<script src="~/js/chart.min.js"></script>
+
+<link rel="stylesheet" href="~/css/style.css" />
+
+
+
+<!-- JavaScript Kodları -->
+<script>
+     fetch('/Chart/KombinasyonDagilimi')
+        .then(res => res.json())
+        .then(data => {
+            const labels = Object.keys(data);
+            const values = Object.values(data);
+
+            new Chart(document.getElementById('kombinasyonChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Birlikte Çıkma Sayısı',
+                        data: values,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'En Sık Görülen 2\'li Sayı Kombinasyonları'
+                        },
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: { precision: 0 }
+                        }
+                    }
+                }
+            });
+        });
+    // Bar Chart: En Çok Çıkan Sayılar
+    fetch('/Chart/EnCokCikanSayilar')
+        .then(res => res.json())
+        .then(data => {
+            const labels = Object.keys(data);
+            const values = Object.values(data);
+
+            new Chart(document.getElementById('sayilarChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Çıkma Sıklığı',
+                        data: values,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false },
+                        title: {
+                            display: true,
+                            text: 'En Çok Çıkan Sayılar'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: { precision: 0 }
+                        }
+                    }
+                }
+            });
+        });
+
+    // Doughnut Chart: Sayı Aralıkları
+    fetch('/Chart/SayiAralikDagilimi')
+        .then(res => res.json())
+        .then(data => {
+            const labels = Object.keys(data);
+            const values = Object.values(data);
+
+            new Chart(document.getElementById('aralikChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Sayı Sıklığı',
+                        data: values,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Sayı Aralıklarına Göre Dağılım'
+                        },
+                        legend: {
+                            position: 'right'
+                        }
+                    }
+                }
+            });
+        });
+
+         fetch('/Chart/TekCiftDagilimi')
+        .then(res => res.json())
+        .then(data => {
+            const labels = Object.keys(data);
+            const values = Object.values(data);
+
+            new Chart(document.getElementById('tekCiftChart'), {
+                type: 'pie',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Tek/Çift Oranı',
+                        data: values,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Tek / Çift Sayı Dağılımı'
+                        },
+                        legend: {
+                            position: 'right'
+                        }
+                    }
+                }
+            });
+        });
+         fetch('/Chart/YillikDagilim')
+        .then(res => res.json())
+        .then(data => {
+            const labels = Object.keys(data);
+            const values = Object.values(data);
+
+            new Chart(document.getElementById('yillikChart'), {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Yıllık Toplam Çekilen Sayı',
+                        data: values,
+                        fill: false,
+                        tension: 0.3,
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Yıllara Göre Sayı Çıkış Dağılımı'
+                        },
+                        legend: {
+                            position: 'bottom'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: { precision: 0 }
+                        }
+                    }
+                }
+            });
+        });
+
+</script>
